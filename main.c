@@ -3,13 +3,13 @@
 
 int main()
 {
-    const float Percentage=0.7;
+    const float Percentage=0.5;
 
-    int Price =58000;
+    int Price =5800;
 
     int DiscountedPrice=(int)(Percentage *Price);
 
-    printf("Newest Discounted Price is %d",DiscountedPrice);
+    printf("New* Discounted Price is %d",DiscountedPrice);
 
     return 0;
 }
